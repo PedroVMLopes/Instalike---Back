@@ -6,4 +6,3 @@ export async function listAllPosts(req, res) {
     // Envia uma resposta HTTP com o array de posts
     res.status(200).json(posts);
 }
-    
